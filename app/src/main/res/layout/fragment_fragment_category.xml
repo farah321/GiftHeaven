@@ -32,21 +32,23 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:foregroundGravity="center"
-            android:fillViewport="true">
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_below="@+id/p_bar"
+            android:layout_marginTop="20dp">
 
 
-        <ListView
-            android:id="@+id/list_1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="130dp"
-            android:background="@color/color1"
-            android:layout_marginBottom="55dp"
-            >
+            <ListView
+                android:id="@+id/list_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/color1"
+                android:layout_marginBottom="55dp"
+                >
 
-        </ListView>
+            </ListView>
+
         </LinearLayout>
 
 
